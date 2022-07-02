@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
-import 'semantic-ui-css/semantic.min.css';
 import { Route, Routes } from 'react-router-dom';
 import WelcomePage from './pages/welcome';
 import AboutPage from './pages/about';
