@@ -1,6 +1,6 @@
 import express, { Express, Request, Response } from 'express';
 import dotenv from 'dotenv';
-import morgan from 'morgan';
+// import morgan from 'morgan';
 import cors from 'cors';
 
 dotenv.config();
@@ -16,7 +16,7 @@ app.use(cors({
     origin: process.env.CONSUMER_ORIGIN
 }));
 app.use(express.json());
-app.use(morgan('tiny'));
+// app.use(morgan('tiny'));
 
 app.use('/api', routes);
 
