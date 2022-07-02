@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a .black.github.big.icon:hover {
+  color: #323232 !important;
+}
+
+.app {
+  height: 100vh;
+  /* overflow: hidden; */
+}
+
+.app-content {
+  height: 100%;
+  width: 100%;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: calc(100% - 5rem);
+}
+
+.dashboard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.project {
+  height: 100%;
+  width: 100%;
+}
+
+.project .ui.grid.kboard > * {
+  height: 80%;
+}
+
+.ticket-modal-description {
+  background-color: #f2f2f2;
+}
+
+.ticket-modal-description:hover {
+  background-color: #dbdbdb;
+}
+
+.ticket-modal-description:focus {
+  background-color: white !important;
+}
+
+.project .ui.card.ticketList {
+  margin-bottom: 0;
+  height: 100%;
+  display: flex; 
+  align-items: center;
+  overflow-y: auto;
+}
+
+.project .ui.card.ticketList .grid {
+  margin: 0;
+  padding: 0;
+  width: 90%;
+  text-align: center;
+}
+
+.project .ui.card.ticketList .grid .button {
+  width: 100%;
+  margin: 5px 0 5px 0;
+}
+
+.project .ui.card.ticketList .grid .column {
+  padding: 0;
+  margin: 0 0 5px 0; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+}
+
+.project .ticketList .grid .column .header {
+  margin: 0;
+}
+
+.project .ticketList .grid .column .card {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.project .kboard-card {
+  height: 100%;
+}
+
+.project .ui.card.ticketList .header {
+  margin: 10px 0 10px 0; 
+  font-weight: bold;
+}
+
+.project .ui.red.inverted.button {
+  position: absolute;
+  top: 6rem;
+  right: 3rem;
+}
+
+.project .ui.icon.left.labeled.button {
+  position: absolute;
+  top: 6rem;
+  left: 3rem;
+}
+
+.project .ui.grid.kboard {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  top: 10rem;
+  height: 40%;
+  width: 95%;
+  margin: 2.5%; 
+  box-shadow: 0 0 3px #323232;
+  border-radius: 10px;
+  overflow-x: auto;
+}
+
+.project .ui.grid.kboard .no-tickets {
+  width: 100%;
+  height: auto;
+  text-align: center; 
+}
+
+.nav {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.dashboard .ui.icon.left.labeled.button {
+  position: absolute;
+  left: 3rem;
+  top: 6rem;
+}
+
+.dashboard .ui.grid {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+} 
+
+.welcome > h3.ui.header {
+  margin: calc(2rem - .14285714em) 0 calc(2rem - .14285714em);
+}
+
+.app-content .ui.labeled.icon.button {
+  position: absolute;
+  top: 5rem;
+  left: 2rem;
+}
+
+/* Loader styles */
+.ui.segment  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+/* Project Creation Modal */
+.ui.modal.transition.visible.active .ui.form {
+  padding: 20px;
+}  
+
+ul li {
+  list-style: none;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  height: 5rem;
+  width: 100%;  
+  background-color: #008080;
+}
+
